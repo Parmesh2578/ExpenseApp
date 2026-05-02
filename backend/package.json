@@ -1,0 +1,26 @@
+{
+  "name": "expenseapp-backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "ExpenseApp API — MongoDB + Mongoose (users first)",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon",
+    "seed:user": "node src/scripts/seed-demo-user.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  }
+}

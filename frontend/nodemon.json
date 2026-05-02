@@ -1,0 +1,6 @@
+{
+  "watch": ["vite.config.js", "index.html"],
+  "ext": "js,html",
+  "exec": "vite",
+  "delay": 200
+}
